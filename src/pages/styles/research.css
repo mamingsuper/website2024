@@ -3,22 +3,25 @@
 .research-logo-container {
 	display: flex;
 	justify-content: left;
-	align-items: center;
 	padding-top: 25px;
-	position: fixed; /* 将 logo 容器固定 */
-	top: 0; /* 固定在页面顶部 */
-	left: 0; /* 固定在页面左侧 */
-	width: 150px; /* 设置容器的宽度，确保它不会占用太多空间 */
-	height: 100%; /* 使 logo 占满左侧的高度 */
-	background-color: white; /* 设置背景颜色，防止内容滚动时的重叠 */
+}
+
+.research-logo {
+	display: flex;
+	position: fixed;
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	top: 4vh;
+	z-index: 999;
 }
 
 .research-main-container {
 	display: flex;
 	flex-direction: column;
-	margin-left: 170px; /* 为内容预留空间，避免被固定的 logo 遮挡 */
-	padding-top: 30px; /* 保持顶部填充 */
 	height: 100%;
+	margin: 0;
+	padding-top: 30px; /* 进一步减少顶部填充 */
 }
 
 .research-container {
@@ -27,31 +30,23 @@
 }
 
 .research-wrapper {
-	padding-top: 10px;
+	padding-top: 10px; /* 进一步减少顶部填充 */
 	padding-bottom: 20px;
 }
 
 .research-title {
 	width: 100% !important;
 	color: black;
-	margin-bottom: 20px;
+	margin-bottom: 20px; /* 增加一点标题下方的间距 */
 }
 
 .research-wrapper h3 {
-	margin-top: 15px;
+	margin-top: 15px; /* 减少分类标题的上边距 */
 	margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {
-	.research-logo-container {
-		position: relative; /* 在移动设备上不再固定，防止布局问题 */
-		width: 100%;
-		height: auto;
-		padding-top: 20px;
-	}
-
 	.research-main-container {
-		margin-left: 0;
 		padding-top: 20px;
 	}
 
