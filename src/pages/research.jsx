@@ -45,14 +45,16 @@ const Research = () => {
 
 						<div className="research-container">
 							<div className="research-wrapper">
-								<h3>Books</h3>
-								{RESEARCH.books.map((book, index) => (
-									<ResearchItem key={index} item={book} type="book" />
-								))}
+								
 
 								<h3>Articles</h3>
 								{RESEARCH.articles.map((article, index) => (
 									<ResearchItem key={index} item={article} type="article" />
+								))}
+								
+								<h3>Books</h3>
+								{RESEARCH.books.map((book, index) => (
+									<ResearchItem key={index} item={book} type="book" />
 								))}
 
 								<h3>Working Papers</h3>
