@@ -1,0 +1,47 @@
+@import "../../data/styles.css";
+
+.research-logo-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 25px;
+}
+
+.research-main-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 30px; /* 进一步减少顶部填充 */
+}
+
+.research-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.research-wrapper {
+	padding-top: 10px; /* 进一步减少顶部填充 */
+	padding-bottom: 20px;
+}
+
+.research-title {
+	width: 100% !important;
+	color: black;
+	margin-bottom: 20px; /* 增加一点标题下方的间距 */
+}
+
+.research-wrapper h3 {
+	margin-top: 15px; /* 减少分类标题的上边距 */
+	margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+	.research-main-container {
+		padding-top: 20px;
+	}
+
+	.research-container {
+		padding-top: 0;
+	}
+}

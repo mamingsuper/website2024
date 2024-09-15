@@ -1,0 +1,48 @@
+.research-item {
+	margin-bottom: 10px; /* 减少项目之间的间距 */
+	padding: 5px 10px; /* 减少内部填充 */
+	border-left: 3px solid #ffad9a;
+	background-color: #f8f9fa;
+	transition: all 0.3s ease;
+}
+
+.research-item:hover {
+	background-color: #ffeef1;
+	transform: translateX(5px);
+}
+
+.research-authors {
+	font-weight: bold;
+	margin-bottom: 2px; /* 减少作者和标题之间的间距 */
+}
+
+.research-title {
+	margin-bottom: 2px; /* 减少标题和出版信息之间的间距 */
+	font-weight: bold;
+	color: black;
+}
+
+.research-publication {
+	margin-bottom: 2px; /* 减少出版信息和链接之间的间距 */
+}
+
+.journal {
+	font-style: italic;
+	color: black;
+}
+
+.view-article {
+	display: inline-block;
+	color: #ff9a9e;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.view-article:hover {
+	color: #ff6b6b;
+}
+
+.research-status {
+	margin-bottom: 2px; /* 为工作论文状态添加一些底部间距 */
+}

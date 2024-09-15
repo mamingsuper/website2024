@@ -1,0 +1,234 @@
+@import "../../data/styles.css";
+
+.homepage-logo-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 130px;
+}
+
+.homepage-container {
+	padding-top: 25px;
+}
+
+.homepage-first-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start; /* 改为 flex-start 以使内容靠上对齐 */
+	padding-top: 20px; /* 增加一些顶部填充 */
+	position: relative;  /* 添加这行 */
+}
+
+.homepage-first-area-left-side {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 60%;  /* 调整这个值以适应您的需求 */
+}
+
+.homepage-title {
+	width: 85% !important;
+}
+
+.homepage-subtitle {
+	width: 85% !important;
+}
+
+.homepage-first-area-right-side {
+	display: flex;
+	align-items: flex-start; /* 改为 flex-start 以使内容靠上对齐 */
+	justify-content: flex-end; /* 使内容靠右对齐 */
+	position: absolute;  /* 改为绝对定位 */
+	top: -50px;  /* 向上移动 */
+	right: -30px;  /* 向右移动 */
+}
+
+.homepage-image-container {
+	width: 300px;  /* 稍微减小图片尺寸 */
+	height: 300px;
+	margin-top: -30px; /* 向上移动图片 */
+	margin-right: -30px; /* 向右移动图片 */
+}
+
+.homepage-image-wrapper {
+	overflow: hidden;
+	border-radius: 10%;
+	transform: rotate(3deg);
+}
+
+.homepage-image-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* 确保图片填满容器并保持比例 */
+}
+
+.homepage-socials {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.homepage-social-icon {
+	padding-right: 20px;
+	font-size: 25px;
+	transition: color 0.2s ease-in-out;
+	color: var(--secondary-color);
+}
+
+.homepage-social-icon:hover {
+	color: var(--primary-color);
+}
+
+.homepage-after-title {
+	display: flex;
+}
+
+.homepage-projects {
+	flex-basis: 300px;
+	padding-top: 40px;
+}
+
+.homepage-articles {
+	flex-basis: 900px;
+	padding-top: 30px;
+	margin-left: -30px;
+}
+
+.homepage-article {
+	padding-bottom: 5px;
+}
+
+.homepage-works {
+	flex-basis: 600px;
+	padding-top: 30px;
+}
+
+@media (max-width: 1024px) {
+	.homepage-first-area {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.homepage-first-area-left-side {
+		display: flex;
+		flex-direction: column; /* Changed: set direction to column */
+		align-items: flex-start;
+		width: 100%;
+		order: 2;
+	}
+
+	.homepage-title {
+		width: 100% !important;
+		margin-top: 20px;
+		order: 2;
+	}
+
+	.homepage-subtitle {
+		width: 100% !important;
+		margin-top: 10px;
+		order: 3;
+	}
+
+	.homepage-first-area-right-side {
+		width: 100%;
+		order: 1;
+		justify-content: center;
+		margin-top: 20px;
+		position: static;
+		top: auto;
+		right: auto;
+	}
+
+	.homepage-image-container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-left: 10px;
+		order: 1;
+		margin-top: 0;
+		margin-right: 0;
+	}
+
+	.homepage-after-title {
+		flex-direction: column;
+	}
+
+	.homepage-projects {
+		flex-basis: auto;
+	}
+
+	.homepage-articles {
+		flex-basis: auto;
+	}
+
+	.homepage-works {
+		flex-basis: auto;
+		margin-left: -25px;
+		margin-right: -25px;
+	}
+}
+
+/* ... 其他样式 ... */
+
+.highlight {
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  background-position: 0 90%;
+  transition: background-size 0.25s ease-in;
+}
+
+.highlight:hover {
+  background-size: 100% 100%;
+}
+
+.gradient-text {
+	background: linear-gradient(90deg, rgb(51,204,122), rgb(51,146,204));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+}
+
+.professor-name {
+	text-decoration: underline;
+	text-decoration-color: #7dcea0;
+	color: #7dcea0;
+}
+
+/* ... 其他样式保持不变 */
+
+.project-leaders {
+  margin-top: 20px;
+}
+
+.project-leaders h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.project-leaders ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-leaders li {
+  margin-bottom: 5px;
+}
+
+.project-leaders a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-leaders a:hover {
+  color: var(--primary-color);
+}
+
+/* 在文件末尾添加这个新的样式规则 */
+.professor-name {
+  text-decoration: underline;
+  text-decoration-color: #7dcea0;
+  color: #7dcea0;
+}

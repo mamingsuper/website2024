@@ -1,0 +1,34 @@
+.research-item {
+	margin-bottom: 20px;
+	padding: 15px;
+	border-radius: 8px;
+	background-color: #f8f8f8;
+	transition: background-color 0.3s ease;
+}
+
+.research-item:hover {
+	background-color: #f0f0f0;
+}
+
+.research-authors {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.research-title {
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.research-publication {
+	margin-bottom: 5px;
+}
+
+.research-doi a, .research-url a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+.research-doi a:hover, .research-url a:hover {
+	text-decoration: underline;
+}
