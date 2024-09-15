@@ -46,6 +46,7 @@
     overflow: hidden;
     border-radius: 10%;
     position: relative;
+    transform: rotate(2deg);
     top: -20px; /* 向上移动 */
 }
 
