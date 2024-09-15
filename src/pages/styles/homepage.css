@@ -14,17 +14,15 @@
 .homepage-first-area {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-start; /* 改为 flex-start 以使内容靠上对齐 */
-	padding-top: 20px; /* 增加一些顶部填充 */
-	position: relative;  /* 添加这行 */
+	align-items: center;
 }
 
 .homepage-first-area-left-side {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 60%;  /* 调整这个值以适应您的需求 */
 }
+
 
 .homepage-title {
 	width: 85% !important;
@@ -45,9 +43,10 @@
 }
 
 .homepage-image-wrapper {
-	overflow: hidden;
-	border-radius: 10%;
-	transform: rotate(3deg);
+    overflow: hidden;
+    border-radius: 10%;
+    position: relative;
+    top: -20px; /* 向上移动 */
 }
 
 .homepage-image-wrapper img {
