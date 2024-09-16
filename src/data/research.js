@@ -13,7 +13,7 @@ const RESEARCH = {
       authors: "Ma Ming, Daniil Romanov, Genia Kostka and Alexander Libman",
       year: "2024",
       title: "Mirrors and Mosaics: Deciphering Bloc-Building Narratives in Chinese and Russian Mass Media",
-      journal: "Perspective on Politics",
+      journal: "Perspectives on Politics",
       status: "Accepted",
       pdf: "/researchitems/pop.pdf"
     },
