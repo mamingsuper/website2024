@@ -13,3 +13,25 @@
     line-height: 1.5;
   }
 }
+
+/* Add responsive styles using px units */
+body {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+/* Add more styles as needed */
