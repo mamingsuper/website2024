@@ -70,7 +70,7 @@ const Homepage = () => {
 
                 <div className="static-description">
                   {highlightText(INFO.homepage.staticDescription, 
-                    ["computational political communication", "authoritarian politics", "AI governance"],
+                    ["computational political communication", "authoritarian politics", "AI governance", "Perspectives on Politics", "China Review", "China Perspectives", and "Journal of Public and Nonprofit Affairs"],
                     [
                       { name: "Prof. Dr. Genia Kostka", link: "https://www.geschkult.fu-berlin.de/e/oas/sinologie/institut/mitarbeiter/1_professoren/Kostka.html" },
                       { name: "Prof. Dr. Alexander Libman", link: "https://sites.google.com/site/libmanalexander" }
