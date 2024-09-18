@@ -14,7 +14,7 @@ const INFO = {
 	homepage: {
 		title: "Ma Ming",
 		typedDescription: "Hi, Welcome! I am a postdoctoral researcher at Free University Berlin.",
-		staticDescription: "My research focuses on computational political communication, authoritarian politics, and AI governance.",
+		staticDescription: "I study computational political communication, authoritarian politics, and AI governance. My work has been published in peer-reviewed journals, including Perspectives on Politics, China Review, China Perspectives, and Journal of Public and Nonprofit Affairs.",
 	},
 
 	about: {
