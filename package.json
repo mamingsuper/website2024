@@ -1,6 +1,6 @@
 {
-	"name": "reactweb",
-	"version": "1.1.0",
+	"name": "ma-ming-portfolio",
+	"version": "0.1.0",
 	"description": "Academic Website for Dr. Ming",
 	"author": {
 		"name": "Ming Ma",
@@ -67,5 +67,6 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
-	}
+	},
+	"homepage": "https://www.maming.com"
 }
