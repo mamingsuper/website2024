@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.maming.com/sitemap.xml
+Sitemap: https://www.maming.site/sitemap.xml
