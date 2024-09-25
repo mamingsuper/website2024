@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div className="App">
         <Helmet>
-          <title>Ma Ming - Personal Portfolio</title>
-          <meta name="description" content="Ma Ming's personal portfolio showcasing skills, projects, and experience in web development and software engineering." />
+          <title>Ma Ming - Postdoctoral Researcher</title>
+          <meta name="description" content="Ma Ming is currently a Postdoctoral Researcher at Free University Berlin. His research interests include computational social science, authoritarian politics and AI governance." />
         </Helmet>
         // ... existing navigation code ...
         <Switch>
