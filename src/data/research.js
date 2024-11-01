@@ -42,7 +42,7 @@ const RESEARCH = {
       volume: "8",
       issue: "3",
       pages: "1–24",
-      url: "https://doi.org/10.20899/jpna.8.3.375-39"
+      url: "https://doi.org/10.20899/jpna.8.3.375-398"
     },
   ],
   workingPapers: [
