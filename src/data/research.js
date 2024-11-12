@@ -23,7 +23,7 @@ const RESEARCH = {
       title: "Panacea or Pandora’s Box: Diverse Governance Strategies to Conspiracy Theories and their Consequences in China",
       journal: "Humanities and Social Sciences Communications",
       status: "Accepted"
-    }
+    },
     {
         authors: "Ma Ming & Kang Yi",
         year: "2023",
