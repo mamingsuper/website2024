@@ -18,6 +18,13 @@ const RESEARCH = {
       pdf: "/researchitems/pop.pdf"
     },
     {
+      authors: "Ma Ming, Han Feng and Wang Chuyao",
+      year: "2024",
+      title: "Panacea or Pandora’s Box: Diverse Governance Strategies to Conspiracy Theories and their Consequences in China",
+      journal: "Humanities and Social Sciences Communications",
+      status: "Accepted"
+    }
+    {
         authors: "Ma Ming & Kang Yi",
         year: "2023",
         title: "Weaving the Social Fabric: Party-Led Community Social Capital Building in Rural Guangdong",
