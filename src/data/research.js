@@ -36,7 +36,7 @@ const RESEARCH = {
       },
     {
       authors: "Ma Ming & Kang Yi",
-      year: "2023",
+      year: "2022",
       title: "Conflict Management through Controlled Elections: 'Harmonizing Interventions' by Party Work Teams in Chinese Village Elections",
       journal: "China Perspective",
       url: "https://doi.org/10.4000/chinaperspectives.14214"
